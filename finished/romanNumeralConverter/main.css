@@ -1,0 +1,38 @@
+body {
+  background: #3F3F46;
+  font-size: 36px;
+  text-align: center;
+}
+
+h1 {
+  color: #e25c55;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+h2 {
+  color: #e25c55;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+#input-container {
+  margin-top: 50px;
+}
+
+input {
+  font-size: 28px;
+  color: black;
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.8;
+  font-size: 26px;
+}
+
+#output {
+  color: #b1aac8;
+}

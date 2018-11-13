@@ -1,0 +1,36 @@
+<DOCTYPE html>
+
+<html>
+  <head>
+    <title>100 Doors</title>
+    <link href="main.css" rel="stylesheet" type ="text/css">
+  </head>
+  <body>
+    <!-- START OF HEADER -->
+    <div id="header">
+      <h1>100 Doors</h1>
+      <p>
+        There are 100 doors and they are all initially closed. You make 100
+        passes by the doors, visiting every door the first time, every second
+        door the second time, and so on. Upon visiting the door, open the door
+        if it's closed and close the door if it's open. Which doors remain open
+        at the end?
+      </p>
+    </div>
+    <!-- END OF HEADER -->
+    <!-- START OF DOORS -->
+    <div id="button-container">
+      <button onclick="byDoor()" type="button">Start</button>
+      <button onclick="reset()" type="reset">Reset</button>
+    </div>
+    <div id="doors">
+      <div id="row1"></div>
+      <div id="row2"></div>
+      <div id="row3"></div>
+      <div id="row4"></div>
+      <div id="row5"></div>
+    </div>
+    <!-- END OF DOORS -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

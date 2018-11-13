@@ -1,0 +1,16 @@
+body {
+  background: blue;
+}
+
+#container {
+  width: 200px;
+  margin: 200px auto;
+}
+
+button {
+  background-color: gray;
+  color: darkred;
+  font-size: 26px;
+  text-align: center;
+  width: 150px;
+}
