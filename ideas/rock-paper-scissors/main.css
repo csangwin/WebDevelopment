@@ -69,10 +69,11 @@ header > h1 {
 }
 
 .choice {
-  border-radius: 50%;
   display: inline-block;
   margin: 0 20px;
   transition: all 0.3s ease;
+  height: 240px;
+  width: 240px;
 }
 
 .hidden {
