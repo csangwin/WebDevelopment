@@ -9,49 +9,35 @@
 
   <body>
     <header>
-      <section id="title">
-        <h1>Quantum Pools</h1>
-      </section>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Products</li>
-          <li>Services</li>
-          <li>Contact Us</li>
-        </ul>
-      </nav>
+      <div id="top-container">
+        <h1>Quantum Pool<br>Services</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <div id="slideshow">
-        <div class="slide">
-          <img >
-          <p>
-            Complete pool service from opening to closing and everything in
-            between.
-          </p>
+      <div id="slideshow-container">
+        <div class="slide fade">
+          <img src="images/slide3.jpg" style="width:100%" alt="">
         </div>
-        <div class="slide">
-          <img >
-          <p>
-            The best quality pool products will keep your pool crystal clear
-            and feeling refreshing all season long.
-          </p>
+        <div class="slide fade">
+          <img src="images/slide4.jpg" style="width:100%" alt="">
         </div>
-        <div class="slide">
-          <img >
-          <p>
-            Call now for a quote!
-          </p>
-        </div>
-        <div id="prev">
-          <
-        </div>
-        <div id="next">
-          >
-        </div>
-        <div id="dots">
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
         </div>
       </div>
     </main>
