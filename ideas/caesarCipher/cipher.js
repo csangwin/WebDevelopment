@@ -2,8 +2,8 @@ function rot13(str) {
   var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var message = "";
   for (var i = 0; i < str.length; i++) {
-    if (str[i] == " ") {
-      message = message + " ";
+    if (str[i] == " " || str[i] == "!" || str[i] == "." || str[i] == "?") {
+      message = message + str[i];
     } else {
       var letterIndex = alphabet.indexOf(str[i]);
       letterIndex = (letterIndex + 13) % 26;
