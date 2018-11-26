@@ -23,6 +23,15 @@ a:hover {
   color: white;
 }
 
+.project-caption a {
+  color: black;
+  transition: all .3s;
+}
+
+.project-caption a:hover {
+  color: white;
+}
+
 /* Fixed Header Styles */
 nav {
   width: 100%;
