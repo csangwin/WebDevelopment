@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   width: 100%;
   color: black;
-  background-color: #9B9896;
+  background-color: rgb(200, 200, 200);
 }
 
 * {
@@ -15,8 +15,8 @@ body {
 
 nav {
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: hsl(240, 70%, 40%);
+  color: rgb(175, 175, 175);
   position: fixed;
   top: 0;
 }
@@ -42,10 +42,6 @@ li {
 #name {
   float: none;
   font-weight: bold;
-}
-
-.contact {
-  color: white;
 }
 
 /* START TOP SECTION */
@@ -75,7 +71,7 @@ h1 {
 }
 
 .heading {
-  color: #06258E;
+  color: hsl(240, 70%, 40%);
 }
 
 /* END TOP SECTION */
@@ -130,25 +126,28 @@ h2 {
   vertical-align: baseline;
 }
 
-.contact a:link {
-  color: white;
+.contact a:link,
+#me a:link {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
 }
 
-.contact a:visited {
-  color: white;
+.contact a:visited,
+#me a:visited {
+  color: rgb(175, 175, 175);
 }
 
-.contact a:hover {
+.contact a:hover,
+#me a:hover {
   color: #D26600;
 }
 
 a:link {
-  color: #2F3F76;
-  text-decoration: none;
+  color: hsl(240, 70%, 40%);
 }
 
 a:visited {
-  color: #06258E;
+  color: hsl(240, 70%, 40%);
 }
 
 a:hover {
