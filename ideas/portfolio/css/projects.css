@@ -1,0 +1,102 @@
+/* Global Layout Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background: #555;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #bbb;
+  transition: all .5s;
+}
+
+a:hover {
+  color: white;
+}
+
+.project-caption a {
+  color: black;
+  transition: all .3s;
+}
+
+.project-caption a:hover {
+  color: white;
+}
+
+/* Fixed Header Styles */
+nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+#navbar .name {
+  display: block;
+  margin-right: auto;
+  color: white;
+}
+
+#navbar li {
+  padding: 10px;
+}
+
+/* Project Content Styles */
+#projects {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 150px 50px 50px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+
+.project {
+  height: 300px;
+  width: 300px;
+
+}
+
+.project-image {
+  height: 200px;
+  width: 300px;
+}
+
+.project-caption {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1150px) {
+  #projects {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #projects {
+    grid-template-columns: auto;
+  }
+}
