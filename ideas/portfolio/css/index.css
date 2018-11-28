@@ -7,9 +7,11 @@
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.1em;
   text-align: center;
   background: #727271;
+  letter-spacing: 0.1em;
 }
 
 /* Link Styles */
@@ -32,7 +34,7 @@ nav {
   width: 100%;
   background: #21201f;
   min-height: 30px;
-  padding: 10px;
+  padding: 0 10px;
   position: fixed;
   text-align: center;
 }
@@ -40,7 +42,6 @@ nav {
 #navbar {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -50,15 +51,17 @@ nav {
 #navbar .name {
   display: block;
   margin-right: auto;
+  font-size: 1.2em;
 }
 
 #navbar li {
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 /* Welcome Content Styles */
 #welcome {
-  padding-top: 30vh;
+  padding-top: 25vh;
+  min-height: 100vh;
 }
 
 #welcome .profile-image {
@@ -76,4 +79,41 @@ nav {
 #welcome p {
   color: #383838;
   font-weight: bold;
+}
+
+/* Project Content Styles */
+#projects {
+  background: #21201f;
+  min-height: 100vh;
+}
+
+.heading h2 {
+  color: #5f50fd;
+  padding-top: 35px;
+}
+
+.underline {
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 1px solid #727271;
+  padding-top: 10px;
+}
+
+#project-container {
+  padding-top: 30px;
+  display: grid;
+  width: 90%
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+.project {
+  height: 300px;
+  width: 300px;
+}
+
+.project-image {
+  height: 200px;
+  width: 300px;
 }
