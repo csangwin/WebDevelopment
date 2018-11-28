@@ -9,24 +9,28 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  background: #555;
+  background: #727271;
 }
 
 /* Link Styles */
 a {
   text-decoration: none;
-  color: #bbb;
+  color: #727271;
   transition: all .5s;
 }
 
 a:hover {
-  color: white;
+  color: #ef6817;
+}
+
+.name a {
+  color: #5f50fd;
 }
 
 /* Fixed Header Styles */
 nav {
   width: 100%;
-  background: black;
+  background: #21201f;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -46,7 +50,6 @@ nav {
 #navbar .name {
   display: block;
   margin-right: auto;
-  color: white;
 }
 
 #navbar li {
@@ -67,10 +70,10 @@ nav {
 
 #welcome h1 {
   margin: 10px 0;
-  color: hsl(210, 100%, 60%);
+  color: #21201f;
 }
 
 #welcome p {
-  color: hsl(210, 100%, 60%);
+  color: #383838;
   font-weight: bold;
 }
